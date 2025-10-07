@@ -1,0 +1,31 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.village {
+  display: flex;
+}
+
+.bois {
+  background-color: burlywood;
+  color: black;
+  padding: 2rem;
+  margin: 1rem;
+}
+
+.paille {
+  background-color: yellow;
+  color: black;
+  padding: 2rem;
+  margin: 1rem;
+}
+
+.briques {
+  background-color: orange;
+  color: black;
+  padding: 2rem;
+  margin: 1rem;
+}
