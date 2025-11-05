@@ -6,12 +6,13 @@ export default function Maison({ type, nbPvDefaut }) {
   function handleSouffler() {
     setNbPvActuels((nbPvActuels) => nbPvActuels - 1);
   }
-
-  return (
-    <div className={type}>
-      <p>Maison en {type}</p>
-      <p>({nbPvActuels} PV)</p>
-      <button onClick={handleSouffler}>Souffler</button>
-    </div>
-  );
+  if (nbPvActuels > 0) {
+    return (
+      <div className={type}>
+        <p>Maison en {type}</p>
+        <p>({nbPvActuels} PV)</p>
+        <button onClick={handleSouffler}>Souffler</button>
+      </div>
+    );
+  }
 }
