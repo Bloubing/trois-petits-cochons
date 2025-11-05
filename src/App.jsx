@@ -1,5 +1,12 @@
 import "./App.css";
+import Maison from "./Maison";
 
 export default function App() {
-  return null;
+  return (
+    <>
+      <Maison />
+      <Maison />
+      <Maison />
+    </>
+  );
 }
