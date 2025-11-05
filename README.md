@@ -1,16 +1,29 @@
-# React + Vite
+# TP React - Trois Petits Cochons
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Une introduction en pratique à React.
 
-Currently, two official plugins are available:
+Le but de ce TP est d'apprendre les bases de React en créant les maisons des Trois Petits Cochons.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Il sera possible de les détruire en soufflant sur les maisons. Souffler une fois sur une maison lui retire 1 point de vie (PV). Quand la maison n'a plus de PV, elle disparaît. S'il n'y a plus de maisons, un message s'affiche indiquant que le loup a gagné.
 
-## React Compiler
+## Installation du projet
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- Cloner le dépôt :
 
-## Expanding the ESLint configuration
+```sh
+git clone git@github.com:Bloubing/trois-petits-cochons.git
+```
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- Installer les dépendances avec NPM :
+
+```sh
+npm install
+```
+
+- Lancer le projet :
+
+```sh
+npm run dev
+```
+
+Le projet est disponible sur : http://localhost:5173/.
