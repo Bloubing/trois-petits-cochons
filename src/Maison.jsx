@@ -1,8 +1,8 @@
-export default function Maison() {
+export default function Maison({ type, nbPvDefaut }) {
   return (
     <>
-      <p>Maison en paille</p>
-      <p>(1 PV)</p>
+      <p>Maison en {type}</p>
+      <p>({nbPvDefaut} PV)</p>
     </>
   );
 }

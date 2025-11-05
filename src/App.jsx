@@ -4,9 +4,9 @@ import Maison from "./Maison";
 export default function App() {
   return (
     <>
-      <Maison />
-      <Maison />
-      <Maison />
+      <Maison type="paille" nbPvDefaut={1} />
+      <Maison type="bois" nbPvDefaut={2} />
+      <Maison type="briques" nbPvDefaut={3} />
     </>
   );
 }
